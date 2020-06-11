@@ -152,7 +152,7 @@ public class A_login extends javax.swing.JFrame {
         if(jawab==JOptionPane.YES_OPTION){
         System.exit(0);
         }else if(jawab==JOptionPane.NO_OPTION){
-        this.setVisible(false);
+            this.setVisible(false);
         new A_login().setVisible(true);
         }
     }//GEN-LAST:event_btn_keluarActionPerformed
